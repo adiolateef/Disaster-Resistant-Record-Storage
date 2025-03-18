@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.access-recovery]
+path = 'contracts/access-recovery.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.distributed-backup]
 path = 'contracts/distributed-backup.clar'
 clarity_version = 2
